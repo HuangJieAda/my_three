@@ -1,3 +1,4 @@
+
 !function (e) {
   var t = {};
   function n (i) {
@@ -227,9 +228,10 @@ function (e, t, n) {
   n(5);
   var i = t.isLocal = !!window.isLocal;
   t.typekitId = "ujh8grk",
-    t.assetPath = "/assets/",
-    t.cdnPath = "/assets/",
-    t.videoCdnPath = i ? "/assets/" : "https://d8d3yaw9yoj7k.cloudfront.net/",
+    t.assetPath = "./assets/",
+    t.cdnPath = "./assets/",
+    t.videoCdnPath = i ? "./assets/" : "https://d8d3yaw9yoj7k.cloudfront.net/",
+    // t.videoCdnPath = "./assets/"
     t.dataFloatType = null,
     t.renderTargetFloatType = null,
     t.useFloatPacking = null,
